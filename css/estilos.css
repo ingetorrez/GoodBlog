@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    padding: 30px;
+    /* padding: 30px; */
     width: 70%;
     margin: auto;
     border: 1px solid #335;
@@ -13,4 +13,23 @@ body {
 
 .post {
     margin: 50px;
+}
+
+.cabecera {
+    /* position: absolute; */
+    background-color: blue;
+    color: aliceblue;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    -webkit-box-shadow: 12px 19px 28px -15px rgba(105, 102, 105, 1);
+    -moz-box-shadow: 12px 19px 28px -15px rgba(105, 102, 105, 1);
+    box-shadow: 12px 19px 28px -15px rgba(105, 102, 105, 1);
+}
+
+.tagline {
+    padding-left: 20px;
+    font-size: 18px;
 }
