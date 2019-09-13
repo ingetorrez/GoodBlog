@@ -24,9 +24,19 @@ body {
     font-weight: bold;
     text-align: left;
     padding: 10px;
+    /* padding-left: 50px; */
     -webkit-box-shadow: 12px 19px 28px -15px rgba(105, 102, 105, 1);
     -moz-box-shadow: 12px 19px 28px -15px rgba(105, 102, 105, 1);
     box-shadow: 12px 19px 28px -15px rgba(105, 102, 105, 1);
+}
+
+.cabecera .cabtitle {
+    padding-left: 45px;
+}
+
+.cabecera img {
+    position: absolute;
+    width: 40px;
 }
 
 .tagline {
